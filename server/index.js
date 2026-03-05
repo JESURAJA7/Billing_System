@@ -16,7 +16,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://mstgold.netlify.app/"],
+    origin: ["http://localhost:5173", "https://mstgold.netlify.app"],
     credentials: true,
   }),
 );
